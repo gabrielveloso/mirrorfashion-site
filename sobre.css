@@ -1,0 +1,73 @@
+
+
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: justify;
+    margin: 0 auto;
+    width: 940px;
+ }
+
+ h1 {
+     background-image: url(../img/sobre-background.jpg);
+ }
+
+ h2 {
+     border-bottom: 2px solid #333333;
+ }
+
+figure {
+   background-color: #F2EDED;
+   border: 1px dotted  #ccc;
+   text-align: center;
+ }
+
+ figcaption {
+   font-style: italic;
+ }
+
+p {
+     padding: 0 45px;
+     text-indent: 15px;
+ }
+
+figure {
+     padding: 15px;
+     margin: 45px;
+ }
+
+ figcaption {
+     margin-top: 10px;
+ }
+
+a {
+    text-decoration: none;
+    
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+ #centro {
+   margin: 0 auto;
+   width: 550px;
+ }
+
+#rodape {
+     color: #777;
+     margin: 30px 0;
+     padding: 30px 0;
+ }
+
+#rodape img {
+     margin-right: 30px;
+     vertical-align: middle;
+     width: 94px;
+ }
+
+ #familia {
+     float: right;
+     margin: 0 0 10px 10px;
+}
