@@ -121,3 +121,16 @@ footer {
     margin-left: 25px;
     margin: auto 0px auto 25px;;
 }
+
+p:first-letter {
+     font-weight: bold;
+}
+
+h1 + p {
+     text-indent: 0;
+}
+
+/* não seja preceido por outro paragrafo*/
+:not(p) + p:first-line {
+     font-variant: small-caps;
+}

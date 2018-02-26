@@ -92,7 +92,7 @@ header {
 }
 
 .painel {   
-    margin: 10px 0;
+    margin: 10px 5px;
     padding: 10px;
 }
 .novidades {
@@ -185,5 +185,77 @@ footer {
     margin: auto 0px auto 25px;;
 }
 
+.menu-opcoes a:hover {
+     color: #007dc6;
+ }
+ .menu-opcoes a:active {
+      color: #867dc6;
+ }
+
+/** css avançado**/
+
+.menu-departamentos li ul {
+   display: none;
+ }
+ .menu-departamentos li:hover ul {
+   display: block;
+ }
+ .menu-departamentos ul ul li {
+   background-color: #dcdcdc;
+ }
+
+.menu-departamentos li li a:before {
+   content: '- ';
+ }
+
+.menu-departamentos li li a:before {
+   content: '\272A';
+   padding-right: 3px;
+ }
+
+
+.paineis h2:before {
+   content: '\2756';
+   padding-right: 5px;
+   opacity: 0.4;
+ }
+
+.painel {
+   border-radius: 4px;
+   box-shadow: 1px 1px 4px #999;
+   
+ }
+
+.busca {
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+ }
+
+/**progressive enhancement*/
+.novidades {
+   background-color: #f5dcdc;
+   background: linear-gradient(#f5dcdc, #bebef4);
+ }
+
+ .mais-vendidos {
+   background: #dcdcf5;
+   background: linear-gradient(#dcdcf5, #f4bebe);
+ }
+
+.painel li:hover {
+   background-color: rgba(255,255,255,0.8);
+   box-shadow: 0 0 5px #333;
+   transform: scale(1.1) rotate(-5deg);
+   transition: all 0.7s ease;
+ }
+
+.painel li:nth-child(2n):hover {
+   transform: scale(1.2) rotate(5deg);
+ }
+
+/** transição suave na volta **/
+.painel li {
+   transition: 0.7s ease-out;
+ }
 
 
